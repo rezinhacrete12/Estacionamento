@@ -1,0 +1,60 @@
+public class Modelo ( ){
+  private String Marca ( );
+  private String NomeModelo;
+  private String PlacaModelo;
+  private String CorModelo;
+
+  public Modelo1 ( ){
+    super( );
+    this.NomeModelo = "CELTA";
+    this.PlacaModelo = " ASD-1236";
+    this.CorModelo = "VERMELHO";
+  }
+  public Modelo2 ( ){
+    super( );
+    this.NomeModelo = "CORSA ";
+    this.PlacaModelo = "DER-7895";
+    this.CorModelo = "BRANCO";
+  }
+  public Modelo3 ( ){
+    super( );
+    this.NomeModelo = "AUDI";
+    this.CorModelo = "PRETO";
+  }
+  public Modelo4 ( ){
+    super( );
+    this.NomeModelo = "UNO ";
+    this.PlacaModelo = "WER-8546";
+    this.CorModelo = "AMARELO";
+  }
+  public Modelo5 ( ){
+    super( );
+    this.NomeModelo = " GOLF";
+    this.PlacaModelo = "PUL-6532";
+    this.CorModelo = "ROSA";
+  }
+  public Modelo ( ){
+    super( );
+    this.NomeModelo = nome;
+    this.PlacaModelo = placa;
+    this.CorModelo = cor;
+  }
+}
+public String getNome( ){
+  return nome;
+}
+public void setNome(String nome){
+  this.nome = nome;
+}
+public String getPlaca( ){
+  return placa;
+}
+public void setPlac(String placa){
+  this.placa = placa;
+}
+public String getCor( ){
+  return cor;
+}
+public void setCor(String Cor){
+  this.cor = cor;
+}

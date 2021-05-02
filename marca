@@ -1,0 +1,42 @@
+import java.util.ArrayList;
+import java.time.LocalDate;
+
+public class Marca implements Comparable <Modelo>{
+  private string NomeMarca;
+}
+pubic Marca(){
+super ();
+nome = nome;
+}
+public Marca(String nome){
+  super();
+  this.nome =nome;
+}
+public String getNome( ){
+  return nome;
+}
+public String getNome ( ){
+  this.nome = nome;
+}
+public class Modelo1();
+
+public static void main(String [ ] args){
+
+  System.out.println("\n---1 Cadastro de Veiculos: ---");
+  System.out.println("\n Digite a Marca do Veiculo: ");
+  System.out.println("\n Digite a Modelo do Veiculo: ");
+  System.out.println("\n Digite a Placa do Veiculo: ");
+  System.out.println("\n Digite a Cor do Veiculo: ");
+
+
+Scanner tecladoScanner = new tecladoScanner(System.in);
+
+
+  Marca[ ] vet = nem Marca [100];
+  vet[0] = Modelo1;
+  vet[1] = Modelo2;
+  vet[2] = Modelo3;
+  vet[3] = Modelo4;
+  vet[4] = Modelo5;
+  vet[5] = Modelo;
+}
